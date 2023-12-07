@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&display=swap");
+
+.form-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+  background-color: #b6bbc4;
+  border-radius: 20px;
+  height: auto;
+  padding: 70px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #f0ece5;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bolder;
+  color: #31304d;
+}
+
+.btn-primary {
+  font-weight: 400;
+  color: #f0ece5;
+  background-color: #31304d;
+  border-color: #31304d;
+}
+
+.btn-primary:hover {
+  color: #f0ece5;
+  background-color: #565489;
+  border-color: #565489;
+}
+
+.btn-primary:active {
+  color: #f0ece5 !important;
+  background-color: #8d8adb !important;
+  border-color: #565489 !important;
+}
+
+label {
+  font-weight: bolder;
+}
+
+.form-group {
+  margin: 5px 0px 15px 0px;
+}
+
+#back-button {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
